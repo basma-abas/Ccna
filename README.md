@@ -10,6 +10,6 @@ The goal is to build my practical skills step by step, going from the absolute b
 
 Since I am just starting out, my current labs focus on the fundamentals:
 
-    Tools: Cisco Packet Tracer
-    Basics: Navigating Cisco IOS, setting hostnames, and basic security (passwords).
-    Connectivity: IP Addressing, Subnetting basics, and testing connections using ping. (This section will grow as I learn about VLANs, Routing Protocols, etc.)
+- **Tools:** Cisco Packet Tracer  
+- **Basics:** Cisco IOS navigation, hostnames, and passwords  
+- **Connectivity:** IP addressing and testing using `ping'
