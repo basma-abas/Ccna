@@ -1,2 +1,2 @@
-# Ccna
+# Ccna-labs
 Projects small network 
