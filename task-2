@@ -1,0 +1,19 @@
+This is my second CCNA lab using Cisco Packet Tracer.
+
+In this lab I practiced:
+- Router configuration
+- Network connectivity
+- Testing communication between devices
+
+This is part of my learning journey in networking and cyber security.
+
+## Network Topology & Addressing
+- **Network 1:** `192.168.10.0/24` (Gateway: `192.168.10.1`)
+- **Network 2:** `192.168.20.0/24` (Gateway: `192.168.20.1`)
+- **Hardware:** 1x Cisco 1941 Router, 2x Cisco 2960 Switches, 4x PCs.
+
+##  Key Configurations & Troubleshooting
+1. **IP Addressing:** Assigned static IPs, Subnet Masks, and Default Gateways to all end devices.
+2. **Router Setup:** Configured and enabled (`no shutdown`) GigabitEthernet interfaces `G0/0` and `G0/1` with their respective Gateway IPs.
+3. **Traffic Control (Cleanup):** Disabled unnecessary background traffic (STP BPDUs, CDP, and DTP) using interface-level filters (`spanning-tree bpdufilter`, `switchport nonegotiate`) and global commands (`no cdp run`) to optimize the simulation environment.
+
